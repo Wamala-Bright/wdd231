@@ -1,7 +1,7 @@
 const courses = [
-  { code: "WDD 130", name: "Web Fundamentals", credits: 3, completed: true },
-  { code: "WDD 231", name: "Frontend Development I", credits: 3, completed: false },
-  { code: "CSE 121", name: "Programming Fundamentals", credits: 3, completed: true }
+  { code: "WDD 130", name: "Web Fundamentals", credits: 2, completed: true },
+  { code: "WDD 231", name: "Frontend Development I", credits: 2, completed: false },
+  { code: "CSE 121", name: "Programming Fundamentals", credits: 2, completed: true }
 ];
 
 const container = document.querySelector('#courses');
