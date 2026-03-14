@@ -1,0 +1,48 @@
+/* -------------------- Larger Screens -------------------- */
+@media (min-width: 768px) {
+  /* Navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    background: var(--nav-bg);
+    color: var(--nav-text);
+  }
+
+  nav a:hover {
+    background: var(--nav-hover-bg);
+    color: var(--nav-text);
+  }
+
+  .active {
+    background: var(--nav-active-bg);
+    color: var(--nav-text);
+  }
+
+  /* About + Photo side by side */
+  .about-photo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+  }
+
+  /* Courses grid */
+  #courses {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .filters {
+    justify-content: space-between;
+  }
+
+  .filters button {
+    max-width: 150px;
+  }
+
+  main {
+    max-width: 1100px;
+    margin: auto;
+  }
+}
