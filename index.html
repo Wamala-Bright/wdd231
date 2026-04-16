@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="WDD 231 course homepage, projects, resources, and notes by Bright Wamala">
+  <meta name="author" content="Bright Wamala">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WDD 231 | Home</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+  <header>
+  <img src="images/byulogo.webp" alt="Site logo">
+  <span>Wamala Bright</span>
+  <button id="menu"></button>
+</header>
+
+<nav>
+  <ul>
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="directory.html">Chamber Project</a></li>
+    <li><a href="#">Final Project</a></li>
+  </ul>
+</nav>
+
+  <main>
+  <h1>Home</h1>
+
+  <section class="about-photo">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am Wamala Bright, a Web and Computer Programming student with an interest in front-end development and building accessible, user-focused web applications. I enjoy learning HTML, CSS, and JavaScript and applying these skills to practical projects that improve usability and design. My goal is to grow as a developer and use technology to create meaningful solutions.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Student Photo</h2>
+      <img src="images/profilepic.jpeg" alt="Student photo">
+    </div>
+  </section>
+
+  <section class="courses">
+    <h2>Web Certificate Courses</h2>
+
+    <div class="filters">
+      <button id="all">All</button>
+      <button id="cse">CSE</button>
+      <button id="wdd">WDD</button>
+    </div>
+
+    <div id="courses"></div>
+    <p>The total credits for courses listed above is <span id="credits"></span></p>
+  </section>
+  <section class="contact">
+  <h2>Contact Me</h2>
+  <p>
+    You can reach me via email at <a href="mailto:wamalabright@gmail.com">wamalabright@gmail.com</a> 
+  </p>
+</section>
+</main>
+  <footer>
+    <div class="social">
+      <a href="https://github.com/wamala-bright">GitHub</a>
+      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+    </div>
+
+    <p>
+      &copy; <span id="currentyear"></span> Wamala Bright | Uganda
+    </p>
+
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
